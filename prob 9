@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main () {
+    int a;
+    cout<<"Enter the speed ";
+    cin>>a;
+    if (a<20) {
+        cout<<" too slow";
+    }
+    else if (a>80) {
+        cout<<" too fast ";
+    }
+else {
+    cout<<"just right";
+}
+    return 0;
+}
