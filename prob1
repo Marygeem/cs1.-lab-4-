@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
+cout<<"Enter a number";
 int a;
 cin>>a;
 if(a>0)
